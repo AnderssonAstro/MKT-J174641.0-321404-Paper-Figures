@@ -1,2 +1,2 @@
-# MKT J174641.0-321404 Paper Figures
- Figres and Data from Andersson et al 2022
+# MKT J174641.0-321404 Paper
+ Data and Figures from Andersson et al 2022

@@ -1,0 +1,2 @@
+For completeness, the PyBDSF outputs are found herein. From these you can find the local RMS value (used in Figure 3)
+and the mean RA and Dec used for cross matching the position of the radio source with external catalogs.
