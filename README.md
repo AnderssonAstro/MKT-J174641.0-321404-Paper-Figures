@@ -2,7 +2,7 @@
 
  Data and Figures on the discovery of radio flares MKT J174641.0-321404, originating from M dwarf SCR1746-3214.
  
-![plot](MKT174641.0 transient.gif)
+![plotGIF](https://imgur.com/q7JE37b.gif)
 
  
  **For Andersson et al. (2022), MNRAS submitted**
