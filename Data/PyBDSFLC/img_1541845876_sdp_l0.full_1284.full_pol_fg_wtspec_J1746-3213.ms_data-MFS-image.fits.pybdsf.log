@@ -1,0 +1,317 @@
+
+========================================================================
+Mon 31-05-2021 12:28:36:: INFO    : Processing Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits
+Mon 31-05-2021 12:28:36:: INFO    : PyBDSF version 1.9.2
+Mon 31-05-2021 12:28:36:: INFO    : Non-default input parameters:
+                                        filename             = 'Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+                                        fix_to_beam          = True
+                                        thresh_pix           = 3.0
+                                        trim_box             = (3870.0, 3900.0, 4085.0, 4105.0)
+Mon 31-05-2021 12:28:36:: USERINFO: --> Opened 'Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+Mon 31-05-2021 12:28:36:: INFO    : Original data shape of Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits: (1, 1, 8192, 8192)
+Mon 31-05-2021 12:28:36:: INFO    : Final data shape (npol, nchan, x, y): (1, 1, 30, 20)
+Mon 31-05-2021 12:28:36:: USERINFO: Image size .............................. : (30, 20) pixels
+Mon 31-05-2021 12:28:36:: USERINFO: Number of channels ...................... : 1
+Mon 31-05-2021 12:28:36:: USERINFO: Number of Stokes parameters ............. : 1
+Mon 31-05-2021 12:28:36:: USERINFO: Beam shape (major, minor, pos angle) .... : (1.86692e-03, 1.49083e-03, 141.7) degrees
+Mon 31-05-2021 12:28:36:: INFO    : Equinox of image is 2000.000000.
+Mon 31-05-2021 12:28:36:: USERINFO: Frequency of image ...................... : 1283.896 MHz
+Mon 31-05-2021 12:28:36:: USERINFO: Number of blank pixels .................. : 0 (0.0%)
+Mon 31-05-2021 12:28:36:: INFO    : Raw mean (Stokes I) =  0.0059 mJy and raw rms =  0.0290 mJy 
+Mon 31-05-2021 12:28:36:: INFO    : sigma clipped mean (Stokes I) =  0.0001 mJy and  sigma clipped rms =  0.0289 mJy 
+Mon 31-05-2021 12:28:36:: USERINFO: Flux from sum of (non-blank) pixels ..... : 0.000 Jy
+Mon 31-05-2021 12:28:36:: INFO    : No pixels in image > 5-sigma.
+Mon 31-05-2021 12:28:36:: INFO    : Taking number of pixels above 5-sigma as 1.
+Mon 31-05-2021 12:28:36:: INFO    : Estimated bmpersrc_th =  400.00
+Mon 31-05-2021 12:28:36:: INFO    : Parameter confused is False
+Mon 31-05-2021 12:28:37:: USERINFO: --> Calculating background rms and mean images
+Mon 31-05-2021 12:28:37:: INFO    : Estimated size of brightest source (pixels) = 4
+Mon 31-05-2021 12:28:37:: INFO    : Maximum extent of largest 10-sigma island using clipped rms (pixels) = 0.0
+Mon 31-05-2021 12:28:37:: USERINFO: Derived rms_box (box size, step size) ... : (17, 2) pixels
+Mon 31-05-2021 12:28:37:: USERINFO: --> Size of rms_box larger than 1/4 of image size
+Mon 31-05-2021 12:28:37:: USERINFO: --> Using constant background rms and mean
+Mon 31-05-2021 12:28:37:: USERINFO: Value of background rms ................. : 2.89e-05 Jy/beam
+Mon 31-05-2021 12:28:37:: USERINFO: Value of background mean ................ : 0.0 Jy/beam
+Mon 31-05-2021 12:28:37:: USERINFO: --> Expected 5-sigma-clipped false detection rate < fdr_ratio
+Mon 31-05-2021 12:28:37:: USERINFO: --> Using sigma-clipping ('hard') thresholding
+Mon 31-05-2021 12:28:37:: USERINFO: Minimum number of pixels per island ..... : 6
+Mon 31-05-2021 12:28:37:: USERINFO: Number of islands found ................. : 0
+Mon 31-05-2021 12:28:38:: USERINFO: --> Grouping Gaussians into sources
+Mon 31-05-2021 12:28:38:: USERINFO: Number of sources formed from Gaussians   : 0
+Mon 31-05-2021 12:28:38:: INFO    : Calculating residual image after subtracting reconstructed gaussians
+Mon 31-05-2021 12:28:38:: INFO    : Statistics of the Gaussian residual image:
+                                            mean: 5.899e-06 (Jy/beam)
+                                        std. dev: 2.893e-05 (Jy/beam)
+                                            skew: 0.311
+                                        kurtosis: 0.172
+Mon 31-05-2021 12:28:39:: INFO    : Internally derived parameters:
+                                        beam                 : (0.00186692434860463, 0.00149083128436915, 141.713410127058)
+                                        bmpersrc_th          : 400.0
+                                        frequency            : 1283895507.8125
+                                        indir                : 'Epochs'
+                                        minpix_isl           : 6
+                                        rms_box              : (17, 2)
+                                        rms_box_bright       : (17, 2)
+                                        thresh               : 'hard'
+                                        trim_box             : [3870, 3900, 4085, 4105]
+
+========================================================================
+Mon 31-05-2021 12:29:15:: INFO    : Processing Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits
+Mon 31-05-2021 12:29:15:: INFO    : PyBDSF version 1.9.2
+Mon 31-05-2021 12:29:15:: INFO    : Non-default input parameters:
+                                        filename             = 'Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+                                        fix_to_beam          = True
+                                        thresh_pix           = 3.0
+                                        trim_box             = (3870.0, 3900.0, 4085.0, 4105.0)
+Mon 31-05-2021 12:29:15:: USERINFO: --> Opened 'Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+Mon 31-05-2021 12:29:15:: INFO    : Original data shape of Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits: (1, 1, 8192, 8192)
+Mon 31-05-2021 12:29:15:: INFO    : Final data shape (npol, nchan, x, y): (1, 1, 30, 20)
+Mon 31-05-2021 12:29:15:: USERINFO: Image size .............................. : (30, 20) pixels
+Mon 31-05-2021 12:29:15:: USERINFO: Number of channels ...................... : 1
+Mon 31-05-2021 12:29:15:: USERINFO: Number of Stokes parameters ............. : 1
+Mon 31-05-2021 12:29:15:: USERINFO: Beam shape (major, minor, pos angle) .... : (1.86692e-03, 1.49083e-03, 141.7) degrees
+Mon 31-05-2021 12:29:15:: INFO    : Equinox of image is 2000.000000.
+Mon 31-05-2021 12:29:15:: USERINFO: Frequency of image ...................... : 1283.896 MHz
+Mon 31-05-2021 12:29:15:: USERINFO: Number of blank pixels .................. : 0 (0.0%)
+Mon 31-05-2021 12:29:16:: INFO    : Raw mean (Stokes I) =  0.0059 mJy and raw rms =  0.0290 mJy 
+Mon 31-05-2021 12:29:16:: INFO    : sigma clipped mean (Stokes I) =  0.0001 mJy and  sigma clipped rms =  0.0289 mJy 
+Mon 31-05-2021 12:29:16:: USERINFO: Flux from sum of (non-blank) pixels ..... : 0.000 Jy
+Mon 31-05-2021 12:29:16:: INFO    : No pixels in image > 5-sigma.
+Mon 31-05-2021 12:29:16:: INFO    : Taking number of pixels above 5-sigma as 1.
+Mon 31-05-2021 12:29:16:: INFO    : Estimated bmpersrc_th =  400.00
+Mon 31-05-2021 12:29:16:: INFO    : Parameter confused is False
+Mon 31-05-2021 12:29:16:: USERINFO: --> Calculating background rms and mean images
+Mon 31-05-2021 12:29:16:: INFO    : Estimated size of brightest source (pixels) = 4
+Mon 31-05-2021 12:29:16:: INFO    : Maximum extent of largest 10-sigma island using clipped rms (pixels) = 0.0
+Mon 31-05-2021 12:29:16:: USERINFO: Derived rms_box (box size, step size) ... : (17, 2) pixels
+Mon 31-05-2021 12:29:16:: USERINFO: --> Size of rms_box larger than 1/4 of image size
+Mon 31-05-2021 12:29:16:: USERINFO: --> Using constant background rms and mean
+Mon 31-05-2021 12:29:16:: USERINFO: Value of background rms ................. : 2.89e-05 Jy/beam
+Mon 31-05-2021 12:29:16:: USERINFO: Value of background mean ................ : 0.0 Jy/beam
+Mon 31-05-2021 12:29:16:: USERINFO: --> Expected 5-sigma-clipped false detection rate < fdr_ratio
+Mon 31-05-2021 12:29:16:: USERINFO: --> Using sigma-clipping ('hard') thresholding
+Mon 31-05-2021 12:29:17:: USERINFO: Minimum number of pixels per island ..... : 6
+Mon 31-05-2021 12:29:17:: USERINFO: Number of islands found ................. : 0
+Mon 31-05-2021 12:29:17:: USERINFO: --> Grouping Gaussians into sources
+Mon 31-05-2021 12:29:17:: USERINFO: Number of sources formed from Gaussians   : 0
+Mon 31-05-2021 12:29:18:: INFO    : Calculating residual image after subtracting reconstructed gaussians
+Mon 31-05-2021 12:29:18:: INFO    : Statistics of the Gaussian residual image:
+                                            mean: 5.899e-06 (Jy/beam)
+                                        std. dev: 2.893e-05 (Jy/beam)
+                                            skew: 0.311
+                                        kurtosis: 0.172
+Mon 31-05-2021 12:29:18:: INFO    : Internally derived parameters:
+                                        beam                 : (0.00186692434860463, 0.00149083128436915, 141.713410127058)
+                                        bmpersrc_th          : 400.0
+                                        frequency            : 1283895507.8125
+                                        indir                : 'Epochs'
+                                        minpix_isl           : 6
+                                        rms_box              : (17, 2)
+                                        rms_box_bright       : (17, 2)
+                                        thresh               : 'hard'
+                                        trim_box             : [3870, 3900, 4085, 4105]
+
+========================================================================
+Mon 31-05-2021 12:34:55:: INFO    : Processing Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits
+Mon 31-05-2021 12:34:55:: INFO    : PyBDSF version 1.9.2
+Mon 31-05-2021 12:34:55:: INFO    : Non-default input parameters:
+                                        filename             = 'Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+                                        fix_to_beam          = True
+                                        thresh_pix           = 3.0
+                                        trim_box             = (3870.0, 3900.0, 4085.0, 4105.0)
+Mon 31-05-2021 12:34:55:: USERINFO: --> Opened 'Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+Mon 31-05-2021 12:34:56:: INFO    : Original data shape of Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits: (1, 1, 8192, 8192)
+Mon 31-05-2021 12:34:56:: INFO    : Final data shape (npol, nchan, x, y): (1, 1, 30, 20)
+Mon 31-05-2021 12:34:56:: USERINFO: Image size .............................. : (30, 20) pixels
+Mon 31-05-2021 12:34:56:: USERINFO: Number of channels ...................... : 1
+Mon 31-05-2021 12:34:56:: USERINFO: Number of Stokes parameters ............. : 1
+Mon 31-05-2021 12:34:56:: USERINFO: Beam shape (major, minor, pos angle) .... : (1.86692e-03, 1.49083e-03, 141.7) degrees
+Mon 31-05-2021 12:34:56:: INFO    : Equinox of image is 2000.000000.
+Mon 31-05-2021 12:34:56:: USERINFO: Frequency of image ...................... : 1283.896 MHz
+Mon 31-05-2021 12:34:56:: USERINFO: Number of blank pixels .................. : 0 (0.0%)
+Mon 31-05-2021 12:34:56:: INFO    : Raw mean (Stokes I) =  0.0059 mJy and raw rms =  0.0290 mJy 
+Mon 31-05-2021 12:34:56:: INFO    : sigma clipped mean (Stokes I) =  0.0001 mJy and  sigma clipped rms =  0.0289 mJy 
+Mon 31-05-2021 12:34:56:: USERINFO: Flux from sum of (non-blank) pixels ..... : 0.000 Jy
+Mon 31-05-2021 12:34:56:: INFO    : No pixels in image > 5-sigma.
+Mon 31-05-2021 12:34:56:: INFO    : Taking number of pixels above 5-sigma as 1.
+Mon 31-05-2021 12:34:56:: INFO    : Estimated bmpersrc_th =  400.00
+Mon 31-05-2021 12:34:56:: INFO    : Parameter confused is False
+Mon 31-05-2021 12:34:56:: USERINFO: --> Calculating background rms and mean images
+Mon 31-05-2021 12:34:56:: INFO    : Estimated size of brightest source (pixels) = 4
+Mon 31-05-2021 12:34:56:: INFO    : Maximum extent of largest 10-sigma island using clipped rms (pixels) = 0.0
+Mon 31-05-2021 12:34:56:: USERINFO: Derived rms_box (box size, step size) ... : (17, 2) pixels
+Mon 31-05-2021 12:34:56:: USERINFO: --> Size of rms_box larger than 1/4 of image size
+Mon 31-05-2021 12:34:56:: USERINFO: --> Using constant background rms and mean
+Mon 31-05-2021 12:34:56:: USERINFO: Value of background rms ................. : 2.89e-05 Jy/beam
+Mon 31-05-2021 12:34:56:: USERINFO: Value of background mean ................ : 0.0 Jy/beam
+Mon 31-05-2021 12:34:57:: USERINFO: --> Expected 5-sigma-clipped false detection rate < fdr_ratio
+Mon 31-05-2021 12:34:57:: USERINFO: --> Using sigma-clipping ('hard') thresholding
+Mon 31-05-2021 12:34:57:: USERINFO: Minimum number of pixels per island ..... : 6
+Mon 31-05-2021 12:34:57:: USERINFO: Number of islands found ................. : 0
+Mon 31-05-2021 12:34:58:: USERINFO: --> Grouping Gaussians into sources
+Mon 31-05-2021 12:34:58:: USERINFO: Number of sources formed from Gaussians   : 0
+Mon 31-05-2021 12:34:58:: INFO    : Calculating residual image after subtracting reconstructed gaussians
+Mon 31-05-2021 12:34:58:: INFO    : Statistics of the Gaussian residual image:
+                                            mean: 5.899e-06 (Jy/beam)
+                                        std. dev: 2.893e-05 (Jy/beam)
+                                            skew: 0.311
+                                        kurtosis: 0.172
+Mon 31-05-2021 12:34:59:: INFO    : Internally derived parameters:
+                                        beam                 : (0.00186692434860463, 0.00149083128436915, 141.713410127058)
+                                        bmpersrc_th          : 400.0
+                                        frequency            : 1283895507.8125
+                                        indir                : 'Epochs'
+                                        minpix_isl           : 6
+                                        rms_box              : (17, 2)
+                                        rms_box_bright       : (17, 2)
+                                        thresh               : 'hard'
+                                        trim_box             : [3870, 3900, 4085, 4105]
+Mon 31-05-2021 12:59:28:: INFO    : NumExpr defaulting to 4 threads.
+Mon 31-05-2021 12:59:35:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:35:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:36:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:36:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:38:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:38:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:40:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:40:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:41:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:41:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:45:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:45:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:47:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:47:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:49:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:49:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:50:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:50:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:52:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:52:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:54:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Mon 31-05-2021 12:59:54:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+
+========================================================================
+Thu 17-06-2021 13:06:39:: INFO    : Processing Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits
+Thu 17-06-2021 13:06:39:: INFO    : PyBDSF version 1.9.2
+Thu 17-06-2021 13:06:39:: INFO    : Non-default input parameters:
+                                        filename             = 'Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+                                        fix_to_beam          = True
+                                        thresh_pix           = 3.0
+                                        trim_box             = (3870.0, 3900.0, 4085.0, 4105.0)
+Thu 17-06-2021 13:06:39:: USERINFO: --> Opened 'Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+Thu 17-06-2021 13:06:39:: INFO    : Original data shape of Epochs/img_1541845876_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits: (1, 1, 8192, 8192)
+Thu 17-06-2021 13:06:39:: INFO    : Final data shape (npol, nchan, x, y): (1, 1, 30, 20)
+Thu 17-06-2021 13:06:39:: USERINFO: Image size .............................. : (30, 20) pixels
+Thu 17-06-2021 13:06:39:: USERINFO: Number of channels ...................... : 1
+Thu 17-06-2021 13:06:39:: USERINFO: Number of Stokes parameters ............. : 1
+Thu 17-06-2021 13:06:39:: USERINFO: Beam shape (major, minor, pos angle) .... : (1.86692e-03, 1.49083e-03, 141.7) degrees
+Thu 17-06-2021 13:06:39:: INFO    : Equinox of image is 2000.000000.
+Thu 17-06-2021 13:06:39:: USERINFO: Frequency of image ...................... : 1283.896 MHz
+Thu 17-06-2021 13:06:39:: USERINFO: Number of blank pixels .................. : 0 (0.0%)
+Thu 17-06-2021 13:06:39:: INFO    : Raw mean (Stokes I) =  0.0059 mJy and raw rms =  0.0290 mJy 
+Thu 17-06-2021 13:06:39:: INFO    : sigma clipped mean (Stokes I) =  0.0001 mJy and  sigma clipped rms =  0.0289 mJy 
+Thu 17-06-2021 13:06:39:: USERINFO: Flux from sum of (non-blank) pixels ..... : 0.000 Jy
+Thu 17-06-2021 13:06:39:: INFO    : No pixels in image > 5-sigma.
+Thu 17-06-2021 13:06:39:: INFO    : Taking number of pixels above 5-sigma as 1.
+Thu 17-06-2021 13:06:39:: INFO    : Estimated bmpersrc_th =  400.00
+Thu 17-06-2021 13:06:39:: INFO    : Parameter confused is False
+Thu 17-06-2021 13:06:40:: USERINFO: --> Calculating background rms and mean images
+Thu 17-06-2021 13:06:40:: INFO    : Estimated size of brightest source (pixels) = 4
+Thu 17-06-2021 13:06:40:: INFO    : Maximum extent of largest 10-sigma island using clipped rms (pixels) = 0.0
+Thu 17-06-2021 13:06:40:: USERINFO: Derived rms_box (box size, step size) ... : (17, 2) pixels
+Thu 17-06-2021 13:06:40:: USERINFO: --> Size of rms_box larger than 1/4 of image size
+Thu 17-06-2021 13:06:40:: USERINFO: --> Using constant background rms and mean
+Thu 17-06-2021 13:06:40:: USERINFO: Value of background rms ................. : 2.89e-05 Jy/beam
+Thu 17-06-2021 13:06:40:: USERINFO: Value of background mean ................ : 0.0 Jy/beam
+Thu 17-06-2021 13:06:40:: USERINFO: --> Expected 5-sigma-clipped false detection rate < fdr_ratio
+Thu 17-06-2021 13:06:40:: USERINFO: --> Using sigma-clipping ('hard') thresholding
+Thu 17-06-2021 13:06:40:: USERINFO: Minimum number of pixels per island ..... : 6
+Thu 17-06-2021 13:06:40:: USERINFO: Number of islands found ................. : 0
+Thu 17-06-2021 13:06:41:: USERINFO: --> Grouping Gaussians into sources
+Thu 17-06-2021 13:06:41:: USERINFO: Number of sources formed from Gaussians   : 0
+Thu 17-06-2021 13:06:41:: INFO    : Calculating residual image after subtracting reconstructed gaussians
+Thu 17-06-2021 13:06:41:: INFO    : Statistics of the Gaussian residual image:
+                                            mean: 5.899e-06 (Jy/beam)
+                                        std. dev: 2.893e-05 (Jy/beam)
+                                            skew: 0.311
+                                        kurtosis: 0.172
+Thu 17-06-2021 13:06:42:: INFO    : Internally derived parameters:
+                                        beam                 : (0.00186692434860463, 0.00149083128436915, 141.713410127058)
+                                        bmpersrc_th          : 400.0
+                                        frequency            : 1283895507.8125
+                                        indir                : 'Epochs'
+                                        minpix_isl           : 6
+                                        rms_box              : (17, 2)
+                                        rms_box_bright       : (17, 2)
+                                        thresh               : 'hard'
+                                        trim_box             : [3870, 3900, 4085, 4105]
+Thu 17-06-2021 13:07:14:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:07:14:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:07:34:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:07:34:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:07:51:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:07:51:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:08:09:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:08:09:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:08:28:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:08:28:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:08:48:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:08:48:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:09:36:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:09:36:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:10:01:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:10:01:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:10:34:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:10:34:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:10:59:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:10:59:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:11:22:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Thu 17-06-2021 13:11:22:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 14:01:54:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 14:01:54:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 14:02:08:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 14:02:08:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 15:53:07:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 15:53:07:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 15:53:21:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 15:53:21:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 15:53:34:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 15:53:34:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 18:57:34:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 18:57:34:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:19:26:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:19:26:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:27:18:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:27:18:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:27:35:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:27:35:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:27:58:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:27:58:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:28:43:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:28:43:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:29:52:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:29:52:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:30:26:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:30:26:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:30:51:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:30:51:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:31:29:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:31:29:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:32:09:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:32:09:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:32:52:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:32:52:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:33:36:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 19:33:36:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 23:07:58:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 23:07:58:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 23:08:25:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 23:08:25:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 23:08:40:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 23:08:40:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 23:13:44:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 23:13:44:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 23:14:11:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 23:14:11:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 23:14:36:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt
+Fri 18-06-2021 23:14:36:: INFO    : Fontsize 0.00 < 1.0 pt not allowed by FreeType. Setting fontsize = 1 pt

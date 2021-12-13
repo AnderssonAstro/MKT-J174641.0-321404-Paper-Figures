@@ -1,0 +1,224 @@
+
+========================================================================
+Mon 31-05-2021 12:28:07:: INFO    : Processing Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits
+Mon 31-05-2021 12:28:07:: INFO    : PyBDSF version 1.9.2
+Mon 31-05-2021 12:28:07:: INFO    : Non-default input parameters:
+                                        filename             = 'Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+                                        fix_to_beam          = True
+                                        thresh_pix           = 3.0
+                                        trim_box             = (3870.0, 3900.0, 4085.0, 4105.0)
+Mon 31-05-2021 12:28:07:: USERINFO: --> Opened 'Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+Mon 31-05-2021 12:28:07:: INFO    : Original data shape of Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits: (1, 1, 8192, 8192)
+Mon 31-05-2021 12:28:08:: INFO    : Final data shape (npol, nchan, x, y): (1, 1, 30, 20)
+Mon 31-05-2021 12:28:08:: USERINFO: Image size .............................. : (30, 20) pixels
+Mon 31-05-2021 12:28:08:: USERINFO: Number of channels ...................... : 1
+Mon 31-05-2021 12:28:08:: USERINFO: Number of Stokes parameters ............. : 1
+Mon 31-05-2021 12:28:08:: USERINFO: Beam shape (major, minor, pos angle) .... : (4.40236e-03, 1.83598e-03, 32.7) degrees
+Mon 31-05-2021 12:28:08:: INFO    : Equinox of image is 2000.000000.
+Mon 31-05-2021 12:28:08:: USERINFO: Frequency of image ...................... : 1283.896 MHz
+Mon 31-05-2021 12:28:08:: USERINFO: Number of blank pixels .................. : 0 (0.0%)
+Mon 31-05-2021 12:28:08:: INFO    : Raw mean (Stokes I) =  0.0775 mJy and raw rms =  0.1302 mJy 
+Mon 31-05-2021 12:28:08:: INFO    : sigma clipped mean (Stokes I) =  0.0963 mJy and  sigma clipped rms =  0.1319 mJy 
+Mon 31-05-2021 12:28:08:: USERINFO: Flux from sum of (non-blank) pixels ..... : 0.001 Jy
+Mon 31-05-2021 12:28:08:: INFO    : No pixels in image > 5-sigma.
+Mon 31-05-2021 12:28:08:: INFO    : Taking number of pixels above 5-sigma as 1.
+Mon 31-05-2021 12:28:08:: INFO    : Estimated bmpersrc_th =  400.00
+Mon 31-05-2021 12:28:08:: INFO    : Parameter confused is True
+Mon 31-05-2021 12:28:08:: USERINFO: --> Calculating background rms and mean images
+Mon 31-05-2021 12:28:08:: INFO    : Estimated size of brightest source (pixels) = 9
+Mon 31-05-2021 12:28:08:: INFO    : Maximum extent of largest 10-sigma island using clipped rms (pixels) = 0.0
+Mon 31-05-2021 12:28:08:: USERINFO: Derived rms_box (box size, step size) ... : (41, 2) pixels
+Mon 31-05-2021 12:28:08:: USERINFO: --> Size of rms_box larger than 1/4 of image size
+Mon 31-05-2021 12:28:08:: USERINFO: --> Using constant background rms and mean
+Mon 31-05-2021 12:28:08:: USERINFO: Value of background rms ................. : 1.32e-04 Jy/beam
+Mon 31-05-2021 12:28:08:: USERINFO: Value of background mean ................ : 0.0001 Jy/beam
+Mon 31-05-2021 12:28:08:: USERINFO: --> Expected 5-sigma-clipped false detection rate < fdr_ratio
+Mon 31-05-2021 12:28:08:: USERINFO: --> Using sigma-clipping ('hard') thresholding
+Mon 31-05-2021 12:28:09:: USERINFO: Minimum number of pixels per island ..... : 17
+Mon 31-05-2021 12:28:09:: USERINFO: Number of islands found ................. : 0
+Mon 31-05-2021 12:28:09:: USERINFO: --> Grouping Gaussians into sources
+Mon 31-05-2021 12:28:09:: USERINFO: Number of sources formed from Gaussians   : 0
+Mon 31-05-2021 12:28:09:: INFO    : Calculating residual image after subtracting reconstructed gaussians
+Mon 31-05-2021 12:28:10:: INFO    : Statistics of the Gaussian residual image:
+                                            mean: 7.754e-05 (Jy/beam)
+                                        std. dev: 1.300e-04 (Jy/beam)
+                                            skew: -0.020
+                                        kurtosis: -0.959
+Mon 31-05-2021 12:28:10:: INFO    : Internally derived parameters:
+                                        beam                 : (0.00440236389919214, 0.00183597502772161, 32.7089879585747)
+                                        bmpersrc_th          : 400.0
+                                        frequency            : 1283895507.8125
+                                        indir                : 'Epochs'
+                                        minpix_isl           : 17
+                                        rms_box              : (41, 2)
+                                        rms_box_bright       : (41, 2)
+                                        thresh               : 'hard'
+                                        trim_box             : [3870, 3900, 4085, 4105]
+
+========================================================================
+Mon 31-05-2021 12:28:46:: INFO    : Processing Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits
+Mon 31-05-2021 12:28:46:: INFO    : PyBDSF version 1.9.2
+Mon 31-05-2021 12:28:46:: INFO    : Non-default input parameters:
+                                        filename             = 'Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+                                        fix_to_beam          = True
+                                        thresh_pix           = 3.0
+                                        trim_box             = (3870.0, 3900.0, 4085.0, 4105.0)
+Mon 31-05-2021 12:28:46:: USERINFO: --> Opened 'Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+Mon 31-05-2021 12:28:46:: INFO    : Original data shape of Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits: (1, 1, 8192, 8192)
+Mon 31-05-2021 12:28:46:: INFO    : Final data shape (npol, nchan, x, y): (1, 1, 30, 20)
+Mon 31-05-2021 12:28:46:: USERINFO: Image size .............................. : (30, 20) pixels
+Mon 31-05-2021 12:28:46:: USERINFO: Number of channels ...................... : 1
+Mon 31-05-2021 12:28:46:: USERINFO: Number of Stokes parameters ............. : 1
+Mon 31-05-2021 12:28:46:: USERINFO: Beam shape (major, minor, pos angle) .... : (4.40236e-03, 1.83598e-03, 32.7) degrees
+Mon 31-05-2021 12:28:46:: INFO    : Equinox of image is 2000.000000.
+Mon 31-05-2021 12:28:46:: USERINFO: Frequency of image ...................... : 1283.896 MHz
+Mon 31-05-2021 12:28:46:: USERINFO: Number of blank pixels .................. : 0 (0.0%)
+Mon 31-05-2021 12:28:46:: INFO    : Raw mean (Stokes I) =  0.0775 mJy and raw rms =  0.1302 mJy 
+Mon 31-05-2021 12:28:46:: INFO    : sigma clipped mean (Stokes I) =  0.0963 mJy and  sigma clipped rms =  0.1319 mJy 
+Mon 31-05-2021 12:28:46:: USERINFO: Flux from sum of (non-blank) pixels ..... : 0.001 Jy
+Mon 31-05-2021 12:28:46:: INFO    : No pixels in image > 5-sigma.
+Mon 31-05-2021 12:28:46:: INFO    : Taking number of pixels above 5-sigma as 1.
+Mon 31-05-2021 12:28:46:: INFO    : Estimated bmpersrc_th =  400.00
+Mon 31-05-2021 12:28:46:: INFO    : Parameter confused is True
+Mon 31-05-2021 12:28:47:: USERINFO: --> Calculating background rms and mean images
+Mon 31-05-2021 12:28:47:: INFO    : Estimated size of brightest source (pixels) = 9
+Mon 31-05-2021 12:28:47:: INFO    : Maximum extent of largest 10-sigma island using clipped rms (pixels) = 0.0
+Mon 31-05-2021 12:28:47:: USERINFO: Derived rms_box (box size, step size) ... : (41, 2) pixels
+Mon 31-05-2021 12:28:47:: USERINFO: --> Size of rms_box larger than 1/4 of image size
+Mon 31-05-2021 12:28:47:: USERINFO: --> Using constant background rms and mean
+Mon 31-05-2021 12:28:47:: USERINFO: Value of background rms ................. : 1.32e-04 Jy/beam
+Mon 31-05-2021 12:28:47:: USERINFO: Value of background mean ................ : 0.0001 Jy/beam
+Mon 31-05-2021 12:28:47:: USERINFO: --> Expected 5-sigma-clipped false detection rate < fdr_ratio
+Mon 31-05-2021 12:28:47:: USERINFO: --> Using sigma-clipping ('hard') thresholding
+Mon 31-05-2021 12:28:47:: USERINFO: Minimum number of pixels per island ..... : 17
+Mon 31-05-2021 12:28:47:: USERINFO: Number of islands found ................. : 0
+Mon 31-05-2021 12:28:47:: USERINFO: --> Grouping Gaussians into sources
+Mon 31-05-2021 12:28:47:: USERINFO: Number of sources formed from Gaussians   : 0
+Mon 31-05-2021 12:28:48:: INFO    : Calculating residual image after subtracting reconstructed gaussians
+Mon 31-05-2021 12:28:48:: INFO    : Statistics of the Gaussian residual image:
+                                            mean: 7.754e-05 (Jy/beam)
+                                        std. dev: 1.300e-04 (Jy/beam)
+                                            skew: -0.020
+                                        kurtosis: -0.959
+Mon 31-05-2021 12:28:49:: INFO    : Internally derived parameters:
+                                        beam                 : (0.00440236389919214, 0.00183597502772161, 32.7089879585747)
+                                        bmpersrc_th          : 400.0
+                                        frequency            : 1283895507.8125
+                                        indir                : 'Epochs'
+                                        minpix_isl           : 17
+                                        rms_box              : (41, 2)
+                                        rms_box_bright       : (41, 2)
+                                        thresh               : 'hard'
+                                        trim_box             : [3870, 3900, 4085, 4105]
+
+========================================================================
+Mon 31-05-2021 12:34:04:: INFO    : Processing Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits
+Mon 31-05-2021 12:34:04:: INFO    : PyBDSF version 1.9.2
+Mon 31-05-2021 12:34:04:: INFO    : Non-default input parameters:
+                                        filename             = 'Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+                                        fix_to_beam          = True
+                                        thresh_pix           = 3.0
+                                        trim_box             = (3870.0, 3900.0, 4085.0, 4105.0)
+Mon 31-05-2021 12:34:04:: USERINFO: --> Opened 'Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+Mon 31-05-2021 12:34:04:: INFO    : Original data shape of Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits: (1, 1, 8192, 8192)
+Mon 31-05-2021 12:34:04:: INFO    : Final data shape (npol, nchan, x, y): (1, 1, 30, 20)
+Mon 31-05-2021 12:34:04:: USERINFO: Image size .............................. : (30, 20) pixels
+Mon 31-05-2021 12:34:04:: USERINFO: Number of channels ...................... : 1
+Mon 31-05-2021 12:34:04:: USERINFO: Number of Stokes parameters ............. : 1
+Mon 31-05-2021 12:34:04:: USERINFO: Beam shape (major, minor, pos angle) .... : (4.40236e-03, 1.83598e-03, 32.7) degrees
+Mon 31-05-2021 12:34:04:: INFO    : Equinox of image is 2000.000000.
+Mon 31-05-2021 12:34:04:: USERINFO: Frequency of image ...................... : 1283.896 MHz
+Mon 31-05-2021 12:34:04:: USERINFO: Number of blank pixels .................. : 0 (0.0%)
+Mon 31-05-2021 12:34:04:: INFO    : Raw mean (Stokes I) =  0.0775 mJy and raw rms =  0.1302 mJy 
+Mon 31-05-2021 12:34:04:: INFO    : sigma clipped mean (Stokes I) =  0.0963 mJy and  sigma clipped rms =  0.1319 mJy 
+Mon 31-05-2021 12:34:04:: USERINFO: Flux from sum of (non-blank) pixels ..... : 0.001 Jy
+Mon 31-05-2021 12:34:04:: INFO    : No pixels in image > 5-sigma.
+Mon 31-05-2021 12:34:04:: INFO    : Taking number of pixels above 5-sigma as 1.
+Mon 31-05-2021 12:34:04:: INFO    : Estimated bmpersrc_th =  400.00
+Mon 31-05-2021 12:34:04:: INFO    : Parameter confused is True
+Mon 31-05-2021 12:34:05:: USERINFO: --> Calculating background rms and mean images
+Mon 31-05-2021 12:34:05:: INFO    : Estimated size of brightest source (pixels) = 9
+Mon 31-05-2021 12:34:05:: INFO    : Maximum extent of largest 10-sigma island using clipped rms (pixels) = 0.0
+Mon 31-05-2021 12:34:05:: USERINFO: Derived rms_box (box size, step size) ... : (41, 2) pixels
+Mon 31-05-2021 12:34:05:: USERINFO: --> Size of rms_box larger than 1/4 of image size
+Mon 31-05-2021 12:34:05:: USERINFO: --> Using constant background rms and mean
+Mon 31-05-2021 12:34:05:: USERINFO: Value of background rms ................. : 1.32e-04 Jy/beam
+Mon 31-05-2021 12:34:05:: USERINFO: Value of background mean ................ : 0.0001 Jy/beam
+Mon 31-05-2021 12:34:05:: USERINFO: --> Expected 5-sigma-clipped false detection rate < fdr_ratio
+Mon 31-05-2021 12:34:05:: USERINFO: --> Using sigma-clipping ('hard') thresholding
+Mon 31-05-2021 12:34:05:: USERINFO: Minimum number of pixels per island ..... : 17
+Mon 31-05-2021 12:34:05:: USERINFO: Number of islands found ................. : 0
+Mon 31-05-2021 12:34:06:: USERINFO: --> Grouping Gaussians into sources
+Mon 31-05-2021 12:34:06:: USERINFO: Number of sources formed from Gaussians   : 0
+Mon 31-05-2021 12:34:07:: INFO    : Calculating residual image after subtracting reconstructed gaussians
+Mon 31-05-2021 12:34:07:: INFO    : Statistics of the Gaussian residual image:
+                                            mean: 7.754e-05 (Jy/beam)
+                                        std. dev: 1.300e-04 (Jy/beam)
+                                            skew: -0.020
+                                        kurtosis: -0.959
+Mon 31-05-2021 12:34:07:: INFO    : Internally derived parameters:
+                                        beam                 : (0.00440236389919214, 0.00183597502772161, 32.7089879585747)
+                                        bmpersrc_th          : 400.0
+                                        frequency            : 1283895507.8125
+                                        indir                : 'Epochs'
+                                        minpix_isl           : 17
+                                        rms_box              : (41, 2)
+                                        rms_box_bright       : (41, 2)
+                                        thresh               : 'hard'
+                                        trim_box             : [3870, 3900, 4085, 4105]
+
+========================================================================
+Thu 17-06-2021 13:05:55:: INFO    : Processing Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits
+Thu 17-06-2021 13:05:55:: INFO    : PyBDSF version 1.9.2
+Thu 17-06-2021 13:05:55:: INFO    : Non-default input parameters:
+                                        filename             = 'Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+                                        fix_to_beam          = True
+                                        thresh_pix           = 3.0
+                                        trim_box             = (3870.0, 3900.0, 4085.0, 4105.0)
+Thu 17-06-2021 13:05:55:: USERINFO: --> Opened 'Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits'
+Thu 17-06-2021 13:05:55:: INFO    : Original data shape of Epochs/img_1536426351_sdp_l0.full_1284.full_pol_fg_wtspec_J1746-3213.ms_data-MFS-image.fits: (1, 1, 8192, 8192)
+Thu 17-06-2021 13:05:55:: INFO    : Final data shape (npol, nchan, x, y): (1, 1, 30, 20)
+Thu 17-06-2021 13:05:55:: USERINFO: Image size .............................. : (30, 20) pixels
+Thu 17-06-2021 13:05:55:: USERINFO: Number of channels ...................... : 1
+Thu 17-06-2021 13:05:55:: USERINFO: Number of Stokes parameters ............. : 1
+Thu 17-06-2021 13:05:55:: USERINFO: Beam shape (major, minor, pos angle) .... : (4.40236e-03, 1.83598e-03, 32.7) degrees
+Thu 17-06-2021 13:05:55:: INFO    : Equinox of image is 2000.000000.
+Thu 17-06-2021 13:05:55:: USERINFO: Frequency of image ...................... : 1283.896 MHz
+Thu 17-06-2021 13:05:55:: USERINFO: Number of blank pixels .................. : 0 (0.0%)
+Thu 17-06-2021 13:05:55:: INFO    : Raw mean (Stokes I) =  0.0775 mJy and raw rms =  0.1302 mJy 
+Thu 17-06-2021 13:05:55:: INFO    : sigma clipped mean (Stokes I) =  0.0963 mJy and  sigma clipped rms =  0.1319 mJy 
+Thu 17-06-2021 13:05:55:: USERINFO: Flux from sum of (non-blank) pixels ..... : 0.001 Jy
+Thu 17-06-2021 13:05:55:: INFO    : No pixels in image > 5-sigma.
+Thu 17-06-2021 13:05:55:: INFO    : Taking number of pixels above 5-sigma as 1.
+Thu 17-06-2021 13:05:55:: INFO    : Estimated bmpersrc_th =  400.00
+Thu 17-06-2021 13:05:55:: INFO    : Parameter confused is True
+Thu 17-06-2021 13:05:56:: USERINFO: --> Calculating background rms and mean images
+Thu 17-06-2021 13:05:56:: INFO    : Estimated size of brightest source (pixels) = 9
+Thu 17-06-2021 13:05:56:: INFO    : Maximum extent of largest 10-sigma island using clipped rms (pixels) = 0.0
+Thu 17-06-2021 13:05:56:: USERINFO: Derived rms_box (box size, step size) ... : (41, 2) pixels
+Thu 17-06-2021 13:05:56:: USERINFO: --> Size of rms_box larger than 1/4 of image size
+Thu 17-06-2021 13:05:56:: USERINFO: --> Using constant background rms and mean
+Thu 17-06-2021 13:05:56:: USERINFO: Value of background rms ................. : 1.32e-04 Jy/beam
+Thu 17-06-2021 13:05:56:: USERINFO: Value of background mean ................ : 0.0001 Jy/beam
+Thu 17-06-2021 13:05:56:: USERINFO: --> Expected 5-sigma-clipped false detection rate < fdr_ratio
+Thu 17-06-2021 13:05:56:: USERINFO: --> Using sigma-clipping ('hard') thresholding
+Thu 17-06-2021 13:05:56:: USERINFO: Minimum number of pixels per island ..... : 17
+Thu 17-06-2021 13:05:56:: USERINFO: Number of islands found ................. : 0
+Thu 17-06-2021 13:05:57:: USERINFO: --> Grouping Gaussians into sources
+Thu 17-06-2021 13:05:57:: USERINFO: Number of sources formed from Gaussians   : 0
+Thu 17-06-2021 13:05:57:: INFO    : Calculating residual image after subtracting reconstructed gaussians
+Thu 17-06-2021 13:05:57:: INFO    : Statistics of the Gaussian residual image:
+                                            mean: 7.754e-05 (Jy/beam)
+                                        std. dev: 1.300e-04 (Jy/beam)
+                                            skew: -0.020
+                                        kurtosis: -0.959
+Thu 17-06-2021 13:05:58:: INFO    : Internally derived parameters:
+                                        beam                 : (0.00440236389919214, 0.00183597502772161, 32.7089879585747)
+                                        bmpersrc_th          : 400.0
+                                        frequency            : 1283895507.8125
+                                        indir                : 'Epochs'
+                                        minpix_isl           : 17
+                                        rms_box              : (41, 2)
+                                        rms_box_bright       : (41, 2)
+                                        thresh               : 'hard'
+                                        trim_box             : [3870, 3900, 4085, 4105]
