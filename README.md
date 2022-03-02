@@ -30,6 +30,7 @@
  - Two SALT spectra, in .fits format (beginning mbgphR...) and .csv format.
  - An 8x8 arcsecond cutout from MeerLICHT, along with the appropriate catalog from the original image (ML1_q_red_cat.fits). From this catalog you can get the closest-match optical coordinates.
  - Two TraP 'runningcatalog' outputs, one for the first untargetted run, one for the monitored run. These are how we found the source.
+ - Additional 3-minute imaging of the brightest 15-min epoch: a TraP light curve and 5 images around the star.
  - Additional data in the form of the PyBDSF output logs (see the readme therein for more) and PyHammer logs and results (likewise). Provided for completeness, not loaded into the notebooks at any time.
  
  **Software**
