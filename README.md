@@ -11,7 +11,9 @@
 
  This repo contains 3 Jupyter notebooks and the data required to reproduce all figures from the paper "Serendipitous discovery of radio flaring behaviour from a nearby M dwarf with MeerKAT". This paper marks the second M dwarf seen by MeerKAT and the second untargetted discovery of a radio flaring star by the ThunderKAT team. 
  
- If you use any data or methods from this repo, please consider citing Andersson et al. 2022 and/or this repo's DOI: <add link on release>
+ If you use any data or methods from this repo, please consider citing Andersson et al. 2022 and/or this repo's DOI: 
+ 
+ [![DOI](https://zenodo.org/badge/437033240.svg)](https://zenodo.org/badge/latestdoi/437033240)
  
  Comments in the code are intended to guide the reader but I make no promise at perfectly readable documentation. If you have any questions please get in touch on here or at my email address (found in the paper).
  
@@ -19,7 +21,7 @@
  **Notebooks**
  
  - _Paper Figures.ipynb_ is the primary notebook for the paper, used for Figures 1-4, 7 and 9. This covers the radio data, MeerLICHT data, public ASAS-SN optical data and SALT spectra.
-- _TIC 111898820-Mstar.ipynb_ reproduces the TESS figures for Tess Input Candidate 111898820 (the flare star), i.e. Figures 5 and 6.
+- _TIC 111898820-Mstar.ipynb_ (primarily made by Nora Eisner) reproduces the TESS figures for Tess Input Candidate 111898820 (the flare star), i.e. Figures 5 and 6.
  - _GuedelPlot(LD).ipynb_ reproduces Figure 8. **NB: this is a copy of** https://github.com/AstroLaura/GuedelPlot with permission and discussion with LD, plus the data to put the X-ray and radio data of MKT J174641.0-321404 on the plot. Please cite the above, separate GitHub repo when using this plot.
  
  
