@@ -7,7 +7,7 @@
  
  **For Andersson et al. (2022), MNRAS submitted**
  
- The full paper is accessible online for free at: <arxiv link>
+ The full paper is accessible online for free at: <https://arxiv.org/abs/2204.03481>
 
  This repo contains 3 Jupyter notebooks and the data required to reproduce all figures from the paper "Serendipitous discovery of radio flaring behaviour from a nearby M dwarf with MeerKAT". This paper marks the second M dwarf seen by MeerKAT and the second untargetted discovery of a radio flaring star by the ThunderKAT team. 
  
