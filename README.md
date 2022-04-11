@@ -5,7 +5,7 @@
 ![plotGIF](https://imgur.com/q7JE37b.gif)
 
  
- **For Andersson et al. (2022), MNRAS submitted**
+ **For Andersson et al. (2022), MNRAS accepted**
  
  The full paper is accessible online for free at: <https://arxiv.org/abs/2204.03481>
 
